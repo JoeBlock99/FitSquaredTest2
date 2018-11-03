@@ -7,6 +7,6 @@ data class User(
         var levelOfExercise: String,
         var name: String,
         var weight: String,
-        val history: History = History()
+        val history: History
 ) {
 }

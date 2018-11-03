@@ -1,4 +1,4 @@
-package DifferentClasses
+package DifferentClasses.Exercises
 
 abstract class Exercise(
         val name: String,
