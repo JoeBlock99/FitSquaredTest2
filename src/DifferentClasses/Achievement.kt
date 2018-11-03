@@ -1,0 +1,4 @@
+package DifferentClasses
+
+class Achievement {
+}
