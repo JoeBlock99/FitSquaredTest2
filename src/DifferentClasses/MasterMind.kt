@@ -1,4 +1,10 @@
 package DifferentClasses
 
-class MasterMind {
+class MasterMind(
+        val selectedUser: User
+) {
+    fun createdNewRoutine():PersRoutine{
+        val createdRoutine = PersRoutine()
+        return createdRoutine
+    }
 }
