@@ -70,11 +70,11 @@ fun main(args: Array<String>) {
     val newUser = User(
             "",
             "",
-            18,
-            5,
+            53,
+            2,
             "",
-            180F,
-            1.75F,
+            170F,
+            1.60F,
             History()
     )
 
