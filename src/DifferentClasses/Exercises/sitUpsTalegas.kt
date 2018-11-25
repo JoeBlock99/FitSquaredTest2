@@ -1,6 +1,6 @@
 package DifferentClasses.Exercises
 
-class sitUpsTalegas(name:String = "SitUpsTalegas",
+abstract class sitUpsTalegas(name:String = "SitUpsTalegas",
                     difficulty:Int = 5,
                     requirement:String = "Piernas",
                     //qué parte del cuerpo ejercita
