@@ -4,10 +4,11 @@ import DifferentClasses.User
 
 fun main(args: Array<String>) {
     println("Ingrese su edad")
-    var age = readLine()!!
+    //var age = readLine()!!
     println("Ingrese su nivel de ejercicio")
-    var levelOfExercise = readLine()!!
+    //var levelOfExercise = readLine()!!
     println("Ingrese su peso")
+    var weight = 2
     var weight = readLine()!!
     println("Ingrese su altura")
     var altura = readLine()!!
@@ -25,5 +26,4 @@ fun main(args: Array<String>) {
             weight,
             History()
     )
-
 }
