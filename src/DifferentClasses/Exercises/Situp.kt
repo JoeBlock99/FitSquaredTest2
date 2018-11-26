@@ -1,8 +1,10 @@
 package DifferentClasses.Exercises
 
-abstract class Situp(name:String,
-                      difficulty:Int,
-                      requirement:String,
-                      type:Int,
-                     description: String):Exercise(name, difficulty, requirement,type, description){
+abstract class Situp(name:String = "Pistol Squat",
+                     difficulty:Int = 3,
+                     requirement:String = "Piernas",
+        //qué parte del cuerpo ejercita
+                     type: String = "Pierna",
+                     description: String = "Consiste en hacer una sentadilla con una sola pierna, y la otra lo mas estirada posible al frente.")
+    :Situp(name, difficulty, requirement, type, description){
 }
