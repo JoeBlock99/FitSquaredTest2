@@ -5,6 +5,8 @@ abstract class Exercise(
         val difficulty: Int,
         var requirement: String,
         val type: Int,
-        val description: String
+        val description: String,
+        val quantity: String
+
 ) {
 }

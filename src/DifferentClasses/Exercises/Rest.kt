@@ -5,6 +5,7 @@ abstract class Rest (name:String = "Descanso",
             requirement:String = "",
         //qué parte del cuerpo ejercita
             type: String = "",
-            description: String = "Descanse, no se exija tanto, porque podria lesionarse.")
-    :Rest(name, difficulty, requirement, type, description){
+            description: String = "Descanse, no se exija tanto, porque podria lesionarse.",
+quantity: String = "30 segundos")
+    :Rest(name, difficulty, requirement, type, description, quantity){
 }

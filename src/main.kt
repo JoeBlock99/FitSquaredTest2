@@ -3,6 +3,7 @@ import DifferentClasses.Singleton
 import DifferentClasses.User
 
 fun main(args: Array<String>) {
+<<<<<<< HEAD
     println("Ingrese su sexo.")
     var sex = readLine()!!
     println("Ingrese su edad.")
@@ -13,7 +14,14 @@ fun main(args: Array<String>) {
     // nivel 1, solo dificultad 1
     println("Ingrese su nivel de condicion fisica.")
     var levelOfExercise = readLine()!!
+=======
+    println("Ingrese su edad")
+    //var age = readLine()!!
+    println("Ingrese su nivel de ejercicio")
+    //var levelOfExercise = readLine()!!
+>>>>>>> 6240000604f23406cb51c83c745be4ca13cde11d
     println("Ingrese su peso")
+    var weight = 2
     var weight = readLine()!!
     println("Ingrese su altura")
     var height = readLine()!!
@@ -35,5 +43,4 @@ fun main(args: Array<String>) {
             weight,
             History()
     )
-
 }

@@ -5,6 +5,7 @@ abstract class DoubleUnder(name:String = "Double Under",
                   requirement:String = "Cuerda para saltar, piernas y manos.",
         //qué parte del cuerpo ejercita
                   type: String = "Cardio",
-                  description: String = "Saltar la cuerda, haciendo que esta de dos revoluciones antes de que su salto termine.")
-    :DoubleUnder(name, difficulty, requirement, type, description) {
+                  description: String = "Saltar la cuerda, haciendo que esta de dos revoluciones antes de que su salto termine.",
+quantity: String = "100 doubleunders.")
+    :DoubleUnder(name, difficulty, requirement, type, description, quantity) {
 }
